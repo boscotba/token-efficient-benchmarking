@@ -1,8 +1,9 @@
 # Redefining Intelligence: The Case for Token-Efficient Benchmarking in Large Language Models
-
+AUTHOR: Bosco Tang   
+PUBLISHED: May 2, 2025
 ## Abstract
 
-The evaluation of large language models (LLMs) has traditionally prioritized accuracy, fluency, and task completion. However, as these models grow in size and complexity, their token efficiency — the amount of computational resources (measured in tokens) required to reach a correct answer — has become a critical yet overlooked metric. This paper argues that token efficiency is not merely an engineering concern but a fundamental dimension of intelligence itself.
+The evaluation of large language models (LLMs) has traditionally prioritized accuracy, fluency, and task completion. However, as these models grow in size and complexity, their token efficiency. The amount of computational resources (measured in tokens) required to reach a correct answer has become a critical yet overlooked metric. This paper argues that token efficiency is not merely an engineering concern but a fundamental dimension of intelligence itself.
 
 To address this gap, we introduce the **Token-Efficiency Intelligence Matrix (TEIM)**, a benchmarking framework that combines three axes: traditional accuracy metrics, the Token Efficiency Ratio (TER), and convergence trajectory analysis. By quantifying how models balance these dimensions, we distinguish between brute-force pattern matching and cognitively efficient systems. We demonstrate that efficiency-aware training can reduce computational costs by 40–60% without sacrificing performance in coding and reasoning tasks. Through empirical studies and theoretical framing, we argue that integrating token efficiency into benchmarking practices will foster AI systems that are not only capable but also practical, sustainable, and cognitively aligned with human reasoning.
 
@@ -10,9 +11,9 @@ To address this gap, we introduce the **Token-Efficiency Intelligence Matrix (TE
 
 ## 1. Introduction
 
-Large language models have revolutionized natural language processing, demonstrating capabilities across coding, logic, and creative expression. Yet, the benchmarks used to evaluate them—such as GLUE, SuperGLUE, or MMLU—primarily measure whether a task is completed correctly, rather than how efficiently it is solved. This narrow focus risks conflating intelligence with computational extravagance, rewarding models that use excessive computation even when more elegant solutions exist.
+Large language models have revolutionized natural language processing, demonstrating capabilities across coding, logic, and creative expression. Yet, the benchmarks used to evaluate them, such as GLUE, SuperGLUE, or MMLU, primarily measure whether a task is completed correctly, rather than how efficiently it is solved. This narrow focus risks conflating intelligence with computational extravagance, rewarding models that use excessive computation even when more elegant solutions exist.
 
-Consider the example from Anthropic’s internal evaluations of Claude 3 variants. When constrained to a 200-token limit for legal reasoning tasks, one variant experienced only a modest drop in accuracy compared to its unconstrained counterpart. This suggests that efficiency and capability need not be at odds; instead, they can be co-designed to yield intelligent behavior within resource constraints. The absence of such considerations in mainstream benchmarks creates a distorted view of progress—one that favors verbosity over insight.
+Consider the example from Anthropic’s internal evaluations of Claude 3 variants. When constrained to a 200-token limit for legal reasoning tasks, one variant experienced only a modest drop in accuracy compared to its unconstrained counterpart. This suggests that efficiency and capability need not be at odds; instead, they can be co-designed to yield intelligent behavior within resource constraints. The absence of such considerations in mainstream benchmarks creates a distorted view of progress, one that favors verbosity over insight.
 
 This paper proposes a paradigm shift: treating token efficiency not as a secondary concern, but as a core criterion in evaluating LLMs. By doing so, we aim to incentivize the development of models that solve problems not just correctly, but elegantly and sustainably.
 
@@ -69,17 +70,6 @@ Public leaderboards should reflect both traditional accuracy metrics and efficie
 Transparency requirements should mandate that all benchmark submissions disclose input and output token counts. This data should be included in model cards and API documentation, enabling developers and researchers to make informed decisions about deployment trade-offs.
 
 Efficiency-aware training techniques can further embed token-conscious behavior into models during learning. Reinforcement learning setups, for instance, could incorporate penalties proportional to log(token_count) in the reward function. Knowledge distillation can also be employed, where teacher models trained on optimal rationales guide student models to generate shorter, more focused responses.
-
-An illustrative implementation of a dynamic scoring function might look like this:
-
-```python
-def adaptive_token_penalty(model_output, task_complexity):
-    max_allowed = BASELINES[task_complexity]
-    excess = len(model_output.tokens) / max_allowed
-    return accuracy_score * (1 - np.log(excess)/10)
-```
-
-This function adjusts the final score based on how closely the model adheres to expected token limits, balancing accuracy with efficiency.
 
 ---
 
