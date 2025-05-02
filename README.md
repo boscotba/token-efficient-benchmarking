@@ -1,4 +1,5 @@
 # Redefining Intelligence: The Case for Token-Efficient Benchmarking in Large Language Models
+![Logo](btailab_logo.png)
 AUTHOR: Bosco Tang   
 PUBLISHED: May 2, 2025
 ## Abstract
