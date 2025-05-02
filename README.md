@@ -1,10 +1,10 @@
-![logo](btailab_logo.png)
+![logo](holonix%20ai%20lab.png)
 
 # Redefining Intelligence: The Case for Token-Efficient Benchmarking in Large Language Models
 
 **AUTHOR:** Bosco Tang
 
-**AFFILIATION:** BT AI Lab (Hong Kong)
+**AFFILIATION:** Holonix AI Lab (Hong Kong)
 
 **PUBLISHED:** May 2, 2025
 
