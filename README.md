@@ -73,7 +73,7 @@ Efficiency-aware training techniques can further embed token-conscious behavior 
 
 ---
 
-## 6. Challenges and Counterarguments
+## 6. Challenges
 
 Despite the compelling case for token-efficient benchmarking, several counterarguments persist. Some claim that efficiency harms accuracy, suggesting that models constrained by token limits may oversimplify or miss nuanced reasoning. However, empirical evidence contradicts this concern. On math reasoning tasks like GSM8K, models optimized for token efficiency retain over 90% of baseline accuracy while using half the tokens. Hybrid architectures that selectively expand reasoning chains for difficult steps offer a promising compromise.
 
