@@ -112,5 +112,3 @@ To catalyze this shift, we propose the following initiatives:
 3. Advocate for regulatory standards such as the Model Efficiency Transparency Act, requiring disclosure of token usage in commercial deployments.
 
 In closing, we echo the sentiment that the future belongs to models that think with intent—not just volume. True intelligence lies in knowing when to elaborate and when to simplify, when to compute and when to infer. Token efficiency offers us a measurable path toward that goal.
-
----
