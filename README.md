@@ -1,4 +1,4 @@
-![logo](holonix%20ai%20lab.png)
+![logo](holonix%20ai%20lab.png=341x341)
 
 # Redefining Intelligence: The Case for Token-Efficient Benchmarking in Large Language Models
 
