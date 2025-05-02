@@ -1,12 +1,14 @@
-<img src="holonix%20ai%20lab.png" alt="logo" width="341" height="341"/>
+<p align="center">
+  <img src="holonix%20ai%20lab.png" alt="logo" width="341" height="341"/>
+</p>
 
 # Redefining Intelligence: The Case for Token-Efficient Benchmarking in Large Language Models
 
 **AUTHOR:** Bosco Tang
 
-**AFFILIATION:** Holonix AI Lab (Hong Kong)
+**AFFILIATION:** Holonix AI Lab
 
-**PUBLISHED:** May 2, 2025
+**PUBLISHED:** May 2, 2025 (Hong Kong)
 
 ## Abstract
 
