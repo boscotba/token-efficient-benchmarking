@@ -89,7 +89,7 @@ Despite the compelling case for token-efficient benchmarking, several counterarg
 
 Another common objection is that token budgets vary widely by task type—math proofs naturally require more tokens than factual questions. To address this, we propose domain-specific normalization strategies. For example, the normalized Token Efficiency Ratio (TER<sub>normalized</sub>) adjusts for complexity using empirically derived weighting factors:
 
-![TER Normalized Formula](https://latex.codecogs.com/svg.latex?TER_{normalized}&space;=&space;TER&space;\times&space;\sqrt{DomainComplexityFactor})
+![TER Normalized Formula](https://latex.codecogs.com/svg.latex?\boxed{TER_{\text{normalized}}%20=%20TER%20\times%20\sqrt{DomainComplexityFactor}}&bg=FFFFFF)
 
 Where complexity factors are determined by analyzing human solution lengths:
 - Factual QA: 1.0  
