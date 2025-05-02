@@ -63,7 +63,7 @@ Together, these dimensions form the basis of the Token-Efficiency Intelligence M
 
 To integrate token efficiency into mainstream LLM evaluation, we must redesign benchmarking frameworks to reward conciseness alongside accuracy. This includes introducing dynamic task designs that penalize verbosity, creating public leaderboards that highlight efficiency rankings, mandating transparency in token usage reporting, and incorporating efficiency-aware training techniques.
 
-One approach is to impose adaptive token budgets on tasks. For example, in a modified version of Science QA, full credit could be awarded only if the answer remains under a specified token limit, say, 200 tokens. Partial credit might be given for correct answers that exceed the limit, with decreasing rewards as token count increases. This encourages models to prioritize brevity without compromising correctness.
+One approach is to impose adaptive token budgets on tasks. For example, in a modified version of ScienceQA, full credit could be awarded only if the answer remains under a specified token limit, say, 200 tokens. Partial credit might be given for correct answers that exceed the limit, with decreasing rewards as token count increases. This encourages models to prioritize brevity without compromising correctness.
 
 Public leaderboards should reflect both traditional accuracy metrics and efficiency scores. HuggingFace-style tables could display MMLU score, TER, and efficiency rank side-by-side, allowing users to compare models not only on raw capability but also on how intelligently they deploy their resources.
 
