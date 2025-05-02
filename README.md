@@ -69,7 +69,7 @@ Public leaderboards should reflect both traditional accuracy metrics and efficie
 
 Transparency requirements should mandate that all benchmark submissions disclose input and output token counts. This data should be included in model cards and API documentation, enabling developers and researchers to make informed decisions about deployment trade-offs.
 
-Efficiency-aware training techniques can further embed token-conscious behavior into models during learning. Reinforcement learning setups, for instance, could incorporate penalties proportional to log(token_count) in the reward function. Knowledge distillation can also be employed, where teacher models trained on optimal rationales guide student models to generate shorter, more focused responses.
+Efficiency-aware training techniques can further embed token-conscious behavior into models during learning. Reinforcement learning setups, for instance, could incorporate penalties proportional to token-count in the reward function. Knowledge distillation can also be employed, where teacher models trained on optimal rationales guide student models to generate shorter, more focused responses.
 
 ---
 
