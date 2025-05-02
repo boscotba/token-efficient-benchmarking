@@ -102,3 +102,23 @@ To catalyze this shift, we propose the following initiatives:
 3. Advocate for regulatory standards such as the Model Efficiency Transparency Act, requiring disclosure of token usage in commercial deployments.
 
 In closing, we echo the sentiment that the future belongs to models that think with intent—not just volume. True intelligence lies in knowing when to elaborate and when to simplify, when to compute and when to infer. Token efficiency offers us a measurable path toward that goal.
+
+---
+
+## 8. References
+
+## 8. References
+
+Hendrycks, D., Burns, C., Basart, S., Zou, A., Mazeika, M., Song, D., & Steinhardt, J. (2020). *Measuring massive multitask language understanding*. arXiv. https://arxiv.org/abs/2009.03300
+
+Srivastava, A., Rastogi, A., Rao, A., Shoeb, A. A. M., Abid, A., Fisch, A., ... & Santoro, D. (2022). *Beyond the imitation game: Quantifying and extrapolating the capabilities of language models*. arXiv. https://arxiv.org/abs/2206.04615
+
+Trott, S. (2024). *Tokenization in large language models, explained*. Sean Trott's Substack. https://seantrott.substack.com/p/tokenization-in-large-language-models
+
+Wang, A., Singh, A., Michael, J., Hill, F., Levy, O., & Bowman, S. R. (2018). *GLUE: A multi-task benchmark and analysis platform for natural language understanding*. arXiv. https://arxiv.org/abs/1804.07461
+
+Wang, A., Pruksachatkun, Y., Nangia, N., Singh, A., Michael, J., Hill, F., ... & Bowman, S. R. (2019). *SuperGLUE: A stickier benchmark for general-purpose language understanding systems*. arXiv. https://arxiv.org/abs/1905.00537
+
+Williams, B. (2024). *Token efficiency with structured output from language models*. Medium. https://medium.com/data-science-at-microsoft/token-efficiency-with-structured-output-from-language-models-be2e51d3d9d5
+
+---
