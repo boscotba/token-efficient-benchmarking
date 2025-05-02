@@ -2,7 +2,7 @@
 
 # Redefining Intelligence: The Case for Token-Efficient Benchmarking in Large Language Models
 
-**AUTHOR:** Bosco Tang (HKU)
+**AUTHOR:** Bosco Tang
 **PUBLISHED:** May 2, 2025
 
 ## Abstract
