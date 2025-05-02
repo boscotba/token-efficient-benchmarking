@@ -109,8 +109,6 @@ In closing, we echo the sentiment that the future belongs to models that think w
 
 ## 8. References
 
-## 8. References
-
 Hendrycks, D., Burns, C., Basart, S., Zou, A., Mazeika, M., Song, D., & Steinhardt, J. (2020). *Measuring massive multitask language understanding*. arXiv. https://arxiv.org/abs/2009.03300
 
 Srivastava, A., Rastogi, A., Rao, A., Shoeb, A. A. M., Abid, A., Fisch, A., ... & Santoro, D. (2022). *Beyond the imitation game: Quantifying and extrapolating the capabilities of language models*. arXiv. https://arxiv.org/abs/2206.04615
