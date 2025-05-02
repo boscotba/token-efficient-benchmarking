@@ -1,4 +1,4 @@
-![logo](holonix%20ai%20lab.png=341x341)
+<img src="holonix%20ai%20lab.png" alt="logo" width="341" height="341"/>
 
 # Redefining Intelligence: The Case for Token-Efficient Benchmarking in Large Language Models
 
