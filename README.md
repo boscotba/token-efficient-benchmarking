@@ -4,11 +4,9 @@
 
 # Redefining Intelligence: The Case for Token-Efficient Benchmarking in Large Language Models
 
-**AUTHOR:** Bosco Tang
+**AUTHOR:** Holonix AI Lab
 
-**AFFILIATION:** Holonix AI Lab
-
-**PUBLISHED:** May 2, 2025 (Hong Kong)
+**PUBLISHED:** May 2, 2025
 
 ## Abstract
 
@@ -30,7 +28,7 @@ Consider Anthropic’s internal evaluations of Claude 3 variants: when constrain
 
 ## 2. The Limits of Current Benchmarking Practices
 
-Modern LLM benchmarks such as GLUE [Wang et al., 2018], SuperGLUE [Wang et al., 2019], MMLU [Hendrycks et al., 2020], and BIG-Bench [Srivastava et al., 2022] have played a crucial role in advancing natural language understanding and reasoning capabilities. These frameworks provide standardized tests to compare model performance across domains. However, they largely ignore the cost of achieving results, particularly in terms of token usage, and fail to guard against models exploiting efficiency metrics to inflate scores.
+Modern LLM benchmarks such as MMLU and BIG-Bench [Srivastava et al., 2022] have played a crucial role in advancing natural language understanding and reasoning capabilities. These frameworks provide standardized tests to compare model performance across domains. However, they largely ignore the cost of achieving results, particularly in terms of token usage, and fail to guard against models exploiting efficiency metrics to inflate scores.
 
 Consider a logic puzzle where two models achieve the same correctness but differ drastically in token consumption: one using 50 tokens and another 5,000. Current benchmarks award equal credit despite vastly different approaches. More concerning, some models may "cheat" by sacrificing reasoning depth for token efficiency, producing short, superficially correct answers that exploit benchmark designs. This is akin to speedrunning a test by memorizing answers rather than solving problems — a clever hack, not intelligence. Such models risk overfitting to benchmarks, tailoring outputs to minimize tokens while neglecting robust reasoning needed for real-world tasks.
 
